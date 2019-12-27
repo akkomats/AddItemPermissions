@@ -24,7 +24,7 @@ Param(
 If ($SiteUrl -eq $null)
 {
    Write-Host "Example)"
-   Write-Host ">.\SetItemPermissions.ps1 -siteUrl 'https://tenant.sharepoint.com/sites/site' -LibraryName 'DocumentLibrary1' -ItemID '2' -UserName 'user1@tenant.onmicrosoft.com' -RoleName '編集'"
+   Write-Host ">.\SetItemPermissions.ps1 -siteUrl 'https://tenant.sharepoint.com/sites/site' -LibraryName 'DocumentLibrary1' -ItemID '2' -UserName 'user1@tenant.onmicrosoft.com' -RoleName 'Edit'"
    return
 }
 
